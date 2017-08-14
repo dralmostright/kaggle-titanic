@@ -2,13 +2,11 @@
 title: 'Kaggle: Titanic'
 author: "Suman Adhikari"
 date: "August 14, 2017"
-output:
-md_document:
-    variant: markdown_github
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE ,   tidy = TRUE, size="small")
 ```
 
 ### Executive Summary:
